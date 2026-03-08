@@ -362,13 +362,33 @@ The **AI-Based Resume Screening System** simplifies the recruitment process by a
 
 It reduces manual screening effort and provides **data-driven insights for HR decision-making**.
 
+-> HR Register
 
+<img width="1920" height="1080" alt="Screenshot 2026-03-08 140606" src="https://github.com/user-attachments/assets/750abba8-bf02-4c5f-80cd-68a997a0e405" />
+
+-> HR login
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-08 140652" src="https://github.com/user-attachments/assets/55ef0b67-3459-4cae-80ab-59d32da9a8f4" />
+
+-> Student login
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-08 140719" src="https://github.com/user-attachments/assets/97f09813-f93c-4d9d-9f03-b694592671f0" />
+
+-> Dashboard
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-08 140741" src="https://github.com/user-attachments/assets/822f193a-6c7d-48e9-862b-1607767de1c5" />
+
+-> File Uploading
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-08 140838" src="https://github.com/user-attachments/assets/cde0a195-c283-4a76-9a79-8b77a5f70e52" />
+
+-> Final Result with Comparision
 
 https://github.com/user-attachments/assets/40577fa9-c0ae-45e1-bbf7-f58f2f2fc94d
 
-<img width="1920" height="1080" alt="Screenshot 2026-03-08 140838" src="https://github.com/user-attachments/assets/cde0a195-c283-4a76-9a79-8b77a5f70e52" />
-<img width="1920" height="1080" alt="Screenshot 2026-03-08 140741" src="https://github.com/user-attachments/assets/822f193a-6c7d-48e9-862b-1607767de1c5" />
-<img width="1920" height="1080" alt="Screenshot 2026-03-08 140719" src="https://github.com/user-attachments/assets/97f09813-f93c-4d9d-9f03-b694592671f0" />
-<img width="1920" height="1080" alt="Screenshot 2026-03-08 140652" src="https://github.com/user-attachments/assets/55ef0b67-3459-4cae-80ab-59d32da9a8f4" />
-<img width="1920" height="1080" alt="Screenshot 2026-03-08 140606" src="https://github.com/user-attachments/assets/750abba8-bf02-4c5f-80cd-68a997a0e405" />
+
+
+
+
+
 
