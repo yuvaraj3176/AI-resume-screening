@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>AI Resume Screening</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<img src="{{ url_for('static', filename='images/logo.png') }}" height="40">
+
+<span>ResumeAI</span>
+
+</div>
+
+<div class="nav-links">
+
+<a href="/dashboard">Dashboard</a>
+<a href="/upload">Upload Resume</a>
+<a href="/">Logout</a>
+
+</div>
+
+</nav>
+
+<div class="container">
+
+{% block content %}
+
+{% endblock %}
+
+</div>
+
+</body>
+</html>

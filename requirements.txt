@@ -1,0 +1,6 @@
+Flask
+flask-restful
+spacy
+scikit-learn
+pdfminer.six
+pytest

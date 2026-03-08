@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="results-page">
+
+<h2>Resume Matching Result</h2>
+
+{% if top_candidate %}
+
+<h3 class="top-candidate">
+
+Top Candidate: {{top_candidate.name}} ({{top_candidate.score}}% match)
+
+</h3>
+
+<p class="recommendation">
+
+Recommended for Interview
+
+</p>
+
+{% endif %}
+
+
+<h3>All Resume Results</h3>
+
+<table>
+
+<tr>
+<th>Rank</th>
+<th>Resume</th>
+<th>Match %</th>
+</tr>
+
+{% for c in ranked %}
+
+<tr>
+<td>{{loop.index}}</td>
+<td>{{c.name}}</td>
+<td>{{c.score}}%</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+
+<h3>Resume Score Gauge</h3>
+
+<canvas id="scoreChart"></canvas>
+
+
+<h3>Candidate Ranking Chart</h3>
+
+<canvas id="rankingChart"></canvas>
+
+</div>
+
+
+<script>
+
+const score = {{score}}
+
+const candidates = [
+{% for c in ranked %}
+"{{c.name}}",
+{% endfor %}
+];
+
+const scores = [
+{% for c in ranked %}
+{{c.score}},
+{% endfor %}
+];
+
+new Chart(document.getElementById('scoreChart'),{
+
+type:'doughnut',
+
+data:{
+labels:['Match','Remaining'],
+datasets:[{
+data:[score,100-score],
+backgroundColor:['#00ff88','#333']
+}]
+}
+
+});
+
+new Chart(document.getElementById('rankingChart'),{
+
+type:'bar',
+
+data:{
+labels:candidates,
+datasets:[{
+label:'Match Percentage',
+data:scores,
+backgroundColor:'#00ff88'
+}]
+}
+
+});
+
+</script>
+
+{% endblock %}
